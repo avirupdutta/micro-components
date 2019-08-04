@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <!-- Main Script -->
+    <!-- defer instructs the contents of the script tag
+       to not execute until the page has loaded. -->
+    <script defer src="./script.js"></script>
+    
+    <title>Bootstrap Template</title>
+  </head>
+  <body>
+    
+<!--  Input Section    -->
+    <div class="container text-center">
+      <h1>Word Counter</h1>
+      <hr>
+      <div class="input-group">
+        <textarea rows="8" type="text" id="userInput" class="form-control form-control border border-warning" placeholder="Type your message here..."></textarea>
+      </div>
+    </div>
+    
+<!--  Counter Section    -->
+    <div class="container" style="margin-top:50px">
+      <div class="row text-center">
+        <div class="col-sm-6">
+          <strong>Total Words:</strong>
+          <p class="text-primary display-4" id="wordCount">0</p>
+        </div>
+        <div class="col-sm-6">
+          <strong>Total Characters:</strong>
+          <p class="text-success display-4" id="charCount">0</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
